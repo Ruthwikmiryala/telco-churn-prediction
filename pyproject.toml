@@ -1,0 +1,9 @@
+[project]
+name = "telco-churn-prediction"
+version = "0.1.0"
+description = "Telco customer churn with a Random Forest"
+requires-python = ">=3.10"
+dependencies = ["pandas", "numpy", "scikit-learn", "matplotlib"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
